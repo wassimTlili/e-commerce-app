@@ -1,30 +1,27 @@
 import React from "react";
-import Img1 from "../../assets/shirt/shirt.png";
-import Img2 from "../../assets/shirt/shirt2.png";
-import Img3 from "../../assets/shirt/shirt3.png";
 import { FaStar } from "react-icons/fa";
 
 const ProductsData = [
   {
     id: 1,
-    img: Img1,
-    title: "Casual Wear",
+    img: "https://images.unsplash.com/photo-1579586337278-3befd40fd17a",
+    title: "Smart Watch Ultra",
     description:
-      "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Advanced fitness tracker with GPS, heart rate monitoring, and 7-day battery life. Perfect companion for your active lifestyle.",
   },
   {
     id: 2,
-    img: Img2,
-    title: "Printed shirt",
+    img: "https://images.unsplash.com/photo-1590658268037-6bf12165a8df",
+    title: "Wireless Earbuds Pro",
     description:
-      "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Premium noise-canceling wireless earbuds with crystal clear sound and 30 hours of playtime. Experience music like never before.",
   },
   {
     id: 3,
-    img: Img3,
-    title: "Women shirt",
+    img: "https://images.unsplash.com/photo-1527814050087-3793815479db",
+    title: "Gaming Mouse RGB",
     description:
-      "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "High-precision wireless gaming mouse with 16000 DPI, customizable RGB lighting, and programmable buttons for ultimate control.",
   },
 ];
 const TopProducts = ({ handleOrderPopup }) => {
@@ -34,14 +31,13 @@ const TopProducts = ({ handleOrderPopup }) => {
         {/* Header section */}
         <div className="text-left mb-24">
           <p data-aos="fade-up" className="text-sm text-primary">
-            Top Rated Products for you
+            Top Rated Electronic Accessories
           </p>
           <h1 data-aos="fade-up" className="text-3xl font-bold">
-            Best Products
+            Best Tech Gadgets
           </h1>
           <p data-aos="fade-up" className="text-xs text-gray-400">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit
-            asperiores modi Sit asperiores modi
+            Premium electronic accessories for gaming, productivity, and entertainment
           </p>
         </div>
         {/* Body section */}

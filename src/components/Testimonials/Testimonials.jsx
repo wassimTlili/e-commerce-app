@@ -4,26 +4,26 @@ import Slider from "react-slick";
 const TestimonialData = [
   {
     id: 1,
-    name: "Victor",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
+    name: "Michael Chen",
+    text: "Amazing quality! The wireless earbuds have incredible sound and battery life. Best tech purchase I've made this year.",
     img: "https://picsum.photos/101/101",
   },
   {
     id: 2,
-    name: "Satya Nadella",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
+    name: "Sarah Johnson",
+    text: "Fast shipping and excellent customer service. The gaming mouse is precise and the RGB lighting is fantastic!",
     img: "https://picsum.photos/102/102",
   },
   {
     id: 3,
-    name: "Virat Kohli",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
+    name: "David Martinez",
+    text: "The smartwatch exceeded my expectations. Great fitness tracking features and looks premium. Highly recommend!",
     img: "https://picsum.photos/104/104",
   },
   {
     id: 5,
-    name: "Sachin Tendulkar",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
+    name: "Emily Roberts",
+    text: "Best prices for quality electronics! The webcam quality is crystal clear and perfect for my online meetings.",
     img: "https://picsum.photos/103/103",
   },
 ];
@@ -76,11 +76,10 @@ const Testimonials = () => {
             What our customers are saying
           </p>
           <h1 data-aos="fade-up" className="text-3xl font-bold">
-            Testimonials
+            Customer Reviews
           </h1>
           <p data-aos="fade-up" className="text-xs text-gray-400">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit
-            asperiores modi Sit asperiores modi
+            Real feedback from tech enthusiasts who love our electronic accessories
           </p>
         </div>
 
